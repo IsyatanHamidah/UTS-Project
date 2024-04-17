@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            flex-direction: column; 
+            color: white; 
+        }
+
+        header, footer {
+            width: 100%; 
+            background-color: #333;
+            padding: 0; 
+            text-align: center;
+        }
+
+        nav {
+            position: absolute; 
+            top: 10px; 
+            right: 10px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex; 
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: yellow; 
+        }
+
+        main {
+            text-align: center; 
+            width: 100%; 
+            margin-bottom: auto; 
+        }
+
+        .gambar {
+            width: 50%;
+            margin-top: 100px;
+            color: white;
+            font-family: "Libre Baskerville", serif;
+            text-align: center;
+            margin-left: auto; 
+            margin-right: auto; 
+        }
+
+        .profil-info {
+            position: relative; 
+            margin-bottom: 5px; 
+            margin-top: 0; 
+        }
+
+        .profil-info p {
+            margin: 5px 0; 
+        }
+
+        .gambar-img {
+            border: 5px solid white;
+            width:200px; 
+            height: 200px; 
+            border-radius: 50%; 
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: auto; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./public/About.html">About</a></li>
+                <li><a href="./public/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <div class="gambar">
+                <div class="profil-info">
+                    <h1>Isyatan Hamidah</h1>
+                    <p>Email: isyatanhamidah@gmail.com</p>
+                    <p>Pekerjaan: Mahasiswa</p>
+                    <p>Telp : 0895702295866</p>
+                </div>
+                <img class="gambar-img" src="./intan.jpg" alt="profile">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Instagram : @intanisyaaa_</p>
+    </footer>
+</body>
+</html>
